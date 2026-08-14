@@ -586,6 +586,13 @@ llm-as-a-judge/
 │       └── expected_answers.json
 │
 ├── docs/
+│   ├── images/
+│   │   ├── text1-scoring.png
+│   │   ├── text1-feedback-results.png
+│   │   ├── text1-attempt-history.png
+│   │   ├── text2-scoring.png
+│   │   ├── text2-feedback-results.png
+│   │   └── text2-attempt-history.png
 │   ├── architecture.md
 │   ├── evaluation-flow.md
 │   └── dataset-format.md
