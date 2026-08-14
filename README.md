@@ -203,6 +203,7 @@ max(attempts, key=lambda result: (result["score"], result["attempt"]))
 The final report therefore preserves both the **complete revision history** and the **selected best attempt**.
 
 ---
+
 ## Experiment Results
 
 The framework was evaluated across two datasets using both supported evaluation modes: **Scoring Only** and **Feedback with Revision**.
