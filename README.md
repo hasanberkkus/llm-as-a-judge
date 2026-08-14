@@ -203,6 +203,90 @@ max(attempts, key=lambda result: (result["score"], result["attempt"]))
 The final report therefore preserves both the **complete revision history** and the **selected best attempt**.
 
 ---
+## Experiment Results
+
+The framework was evaluated across two datasets using both supported evaluation modes: **Scoring Only** and **Feedback with Revision**.
+
+The generated reports preserve not only final evaluation outcomes, but also the underlying evaluation trace — including the Worker's response, the Judge's independently derived answer, verdict, score, reasoning, feedback, revision status, and attempt history.
+
+---
+
+### Dataset 1 — Factory Production Report
+
+Dataset 1 combines direct information-retrieval questions with calculation-based reasoning over a structured factory production scenario.
+
+#### Scoring Only
+
+In scoring-only mode, the Worker answers each question once. The Judge independently derives its own answer from the source text before comparing it with the Worker's response and assigning a verdict, score, and explanation.
+
+![Dataset 1 — Scoring Only](docs/images/text1-scoring.png)
+
+#### Feedback with Revision
+
+Feedback mode extends the evaluation into an iterative correction workflow. When the initial response is incomplete or incorrect, the Judge generates targeted feedback and the Worker is given an opportunity to revise its answer.
+
+##### Experiment Results
+
+The final experiment report preserves both the initial and final evaluation state, making the effect of revision directly observable.
+
+![Dataset 1 — Feedback Experiment Results](docs/images/text1-feedback-results.png)
+
+##### Attempt History
+
+Every Worker attempt is recorded separately, allowing the complete answer-revision trajectory to be inspected rather than exposing only the final response.
+
+![Dataset 1 — Attempt History](docs/images/text1-attempt-history.png)
+
+---
+
+### Dataset 2 — Financial Transaction Report
+
+Dataset 2 increases the reasoning complexity with financial operations involving currency conversions, commissions, VAT calculations, refunds, and account-balance updates.
+
+#### Scoring Only
+
+The same independent Judge evaluation process is applied to the financial dataset, testing the framework against both information retrieval and multi-step numerical reasoning.
+
+![Dataset 2 — Scoring Only](docs/images/text2-scoring.png)
+
+#### Feedback with Revision
+
+Incorrect or partially correct financial reasoning can enter the revision loop, where Judge feedback identifies the problem and the Worker attempts to produce an improved answer.
+
+##### Experiment Results
+
+The report records the initial Worker answer, initial verdict and score, Judge feedback, selected revised answer, revision status, final verdict, final score, and final reasoning.
+
+![Dataset 2 — Feedback Experiment Results](docs/images/text2-feedback-results.png)
+
+##### Attempt History
+
+The attempt-history view provides a detailed audit trail of the revision process for each evaluated question.
+
+![Dataset 2 — Attempt History](docs/images/text2-attempt-history.png)
+
+---
+
+### Evaluation Traceability
+
+Each experiment is designed to remain inspectable from input to final decision. Depending on the selected evaluation mode, generated reports can preserve:
+
+- experiment ID and timestamp
+- dataset and evaluation mode
+- Worker and Judge models
+- question and question type
+- expected answer
+- independently derived Judge answer
+- initial Worker answer
+- initial verdict and score
+- Judge feedback
+- selected Worker revision
+- attempt count
+- revision status
+- final verdict and score
+- Judge reasoning
+
+This provides an **auditable evaluation trail** instead of reducing LLM performance to a single opaque accuracy number.
 
 ## Judge Design
 
