@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "type": "information_retrieval",
+    "question": "Şirket güne kaç Türk lirası bakiyesi ile başlamıştır?"
+  },
+  {
+    "id": 2,
+    "type": "information_retrieval",
+    "question": "İşlem günü boyunca kullanılan ABD doları ve avro döviz kurları nedir?"
+  },
+  {
+    "id": 3,
+    "type": "information_retrieval",
+    "question": "Amerikan doları satın alma işleminde banka komisyonu hangi para biriminden ve yüzde kaç olarak tahsil edilmiştir?"
+  },
+  {
+    "id": 4,
+    "type": "information_retrieval",
+    "question": "Bilgisayar ekipmanları için uygulanan KDV oranı yüzde kaçtır?"
+  },
+  {
+    "id": 5,
+    "type": "information_retrieval",
+    "question": "Amerikan dolarının avroya çevrilmesi sırasında banka komisyonu hangi para birimi üzerinden uygulanmıştır?"
+  },
+  {
+    "id": 6,
+    "type": "calculation",
+    "question": "Tedarikçiye gönderilen ödeme için TL hesabından çevrilen 742.350,80 Türk lirasının avro karşılığı kaçtır?"
+  },
+  {
+    "id": 7,
+    "type": "calculation",
+    "question": "ABD'deki müşteriden gelen ödeme dolar hesabına aktarıldıktan hemen sonra şirketin dolar hesabındaki toplam bakiye kaç Amerikan doları olmuştur?"
+  },
+  {
+    "id": 8,
+    "type": "calculation",
+    "question": "11.450,60 Amerikan dolarından banka komisyonu kesildikten sonra kalan tutarın avroya çevrilmesi sonucunda kaç avro elde edilmiştir?"
+  },
+  {
+    "id": 9,
+    "type": "calculation",
+    "question": "Satın alınan bilgisayar ekipmanları için KDV dahil olmak üzere TL hesabından toplam kaç Türk lirası ödenmiştir?"
+  },
+  {
+    "id": 10,
+    "type": "calculation",
+    "question": "Bilgisayar ekipmanı alımı, ekipman iadesinden alınan geri ödeme ve operasyon gideri birlikte değerlendirildiğinde, bu üç işlem sonucunda TL hesabındaki net azalış kaç Türk lirasıdır?"
+  }
+]

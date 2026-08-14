@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "type": "information_retrieval",
+        "question": "Projenin başlangıç tarihi ile proje yöneticisinin adı nedir?"
+    },
+    {
+        "id": 2,
+        "type": "information_retrieval",
+        "question": "En yüksek ve en düşük kalite oranına sahip fabrikalar hangileridir ve kalite oranları kaçtır?"
+    },
+    {
+        "id": 3,
+        "type": "information_retrieval",
+        "question": "En yüksek ve en düşük ölçülen menzil hangi fabrikalarda elde edilmiştir ve değerleri kaç kilometredir?"
+    },
+    {
+        "id": 4,
+        "type": "information_retrieval",
+        "question": "İzmir fabrikasından hangi ülkelere kaçar otomobil ihraç edilmiştir?"
+    },
+    {
+        "id": 5,
+        "type": "calculation",
+        "question": "İzmir ve Eskişehir fabrikalarının toplam üretimi ile Ankara ve Bursa fabrikalarının toplam üretimi arasındaki fark kaç otomobildir?"
+    },
+    {
+        "id": 6,
+        "type": "calculation",
+        "question": "Dört fabrikada çalışan toplam çalışan sayısı kaç kişidir?"
+    },
+    {
+        "id": 7,
+        "type": "calculation",
+        "question": "En yüksek yatırım bütçesine sahip fabrika ile en düşük yatırım bütçesine sahip fabrikanın bütçeleri arasındaki fark kaç milyon TL'dir?"
+    },
+    {
+        "id": 8,
+        "type": "calculation",
+        "question": "Dört fabrikanın ortalama ölçülen menzili kaç kilometredir?"
+    },
+    {
+        "id": 9,
+        "type": "calculation",
+        "question": "Toplam üretimin yüzde kaçı yurt içi satış olarak gerçekleşmiştir?"
+    },
+    {
+        "id": 10,
+        "type": "calculation",
+        "question": "Ankara ve İzmir fabrikalarında çalışan toplam mühendis ve teknisyen sayısı kaç kişidir?"
+    }
+]

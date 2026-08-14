@@ -1,0 +1,28 @@
+XYZ Dış Ticaret A.Ş., 12 Ağustos 2026 tarihinde finans departmanı tarafından hazırlanan günlük işlem raporunu yayımlamıştır.
+
+Şirket güne aşağıdaki hesap bakiyeleriyle başlamıştır:
+
+- 2.145.780,50 ₺
+- 48.750,40 Amerikan doları
+- 31.280,75 EUR
+
+İşlem günü boyunca aşağıdaki sabit döviz kurları kullanılmıştır:
+
+- 1 ABD doları = 47,3821 TL
+- 1 avro = 53,0056 Türk lirası
+
+Şirket, Avrupa'daki tedarikçisine ödeme yapmak amacıyla TL hesabındaki 742.350,80 Türk lirasını avroya çevirmiş ve elde edilen tutarın tamamını tedarikçiye göndermiştir.
+
+ABD'deki müşteriden gelen 915.620,45 ₺ karşılığı ödeme, gün içinde kullanılan döviz kuru üzerinden dolar hesabına aktarılmıştır.
+
+Şirket daha sonra TL hesabındaki 528.475,30 TL'yi kullanarak Amerikan doları satın almıştır. Banka, kullanılan Türk lirası tutarı üzerinden %2,10 işlem komisyonu tahsil etmiş ve bu komisyonu TL hesabından ayrıca düşmüştür.
+
+Günün ilerleyen saatlerinde şirket, dolar hesabındaki 11.450,60 $ tutarını avroya çevirmiştir. Banka dönüşümden önce gönderilen dolar tutarı üzerinden %1,35 komisyon kesmiştir. Komisyon sonrasında kalan dolar tutarı, gün içinde geçerli olan kurlar kullanılarak önce Türk lirası karşılığına, ardından avroya dönüştürülmüştür.
+
+Şirket vergi hariç değeri 387.450,75 ₺ olan bilgisayar ekipmanları satın almıştır. Ekipmanlara %20,40 oranında KDV uygulanmış ve vergi dahil toplam bedel TL hesabından ödenmiştir.
+
+Aynı gün, satın alınan ekipmanların vergi hariç değeri 64.825,50 Türk lirası olan kısmı iade edilmiştir. İade edilen ürünlere ait aynı KDV oranı da şirkete geri ödenmiş ve vergi dahil iade tutarının tamamı ₺ hesabına aktarılmıştır.
+
+Gün sonuna doğru şirket, operasyon giderleri için TL hesabından 146.780,35 ₺ ödeme yapmıştır.
+
+Şirket gün içerisinde yukarıda belirtilen işlemler dışında başka bir finansal işlem gerçekleştirmemiştir.

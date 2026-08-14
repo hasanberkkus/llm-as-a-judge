@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.DS_Store
+
+# Generated reports
+reports/report.json
+reports/report.txt
+reports/LLM_Judge_Report.xlsx
+

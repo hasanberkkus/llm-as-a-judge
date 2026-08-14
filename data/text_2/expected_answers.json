@@ -1,0 +1,42 @@
+[
+  {
+    "question_id": 1,
+    "expected_answer": "2.145.780,50 Türk lirası"
+  },
+  {
+    "question_id": 2,
+    "expected_answer": "1 ABD doları = 47,3821 TL ve 1 avro = 53,0056 Türk lirası"
+  },
+  {
+    "question_id": 3,
+    "expected_answer": "Türk lirası hesabından %2,10"
+  },
+  {
+    "question_id": 4,
+    "expected_answer": "%20,40"
+  },
+  {
+    "question_id": 5,
+    "expected_answer": "Amerikan doları üzerinden"
+  },
+  {
+    "question_id": 6,
+    "expected_answer": "14.005,14 avro"
+  },
+  {
+    "question_id": 7,
+    "expected_answer": "68.074,58 Amerikan doları"
+  },
+  {
+    "question_id": 8,
+    "expected_answer": "10.097,59 avro"
+  },
+  {
+    "question_id": 9,
+    "expected_answer": "466.490,70 Türk lirası"
+  },
+  {
+    "question_id": 10,
+    "expected_answer": "535.221,15 Türk lirası"
+  }
+]
